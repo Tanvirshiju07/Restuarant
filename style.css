@@ -1,0 +1,53 @@
+body {
+  font-family: "Righteous", cursive;
+}
+
+.top-area {
+  position: relative;
+}
+.top-area-bg {
+  position: absolute;
+  background-image: url(./img/food.png);
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.header-text-area {
+  text-align: center;
+  top: 300px;
+  position: relative;
+  color: #fff;
+}
+
+.logo {
+  width: 100%;
+  z-index: 10;
+}
+
+.btn {
+  font-family: "Righteous", cursive;
+  background: #f9e090;
+  border: none;
+  margin: 20px;
+  padding: 20px;
+}
+.btn:hover {
+  background: #f9e09086;
+  transition: ease-in-out 500ms;
+}
+
+.btn-a {
+  background: #c89137;
+}
+
+.btn-a:hover {
+  background: rgba(200, 144, 55, 0.383);
+}
+
+h1,
+.h1 {
+  font-size: 5.5rem;
+  font-weight: 800;
+  color: #f0d78c;
+}
